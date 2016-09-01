@@ -1,42 +1,52 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/github-dark.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
 
-  <title>YOUCANTSEEME.js</title>
-  <meta name="description" content="A simple javascript bookmarklet to hide almost all images on a webpage.">
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>YOUCANTSEEME.js by MrCodeInc</title>
+  </head>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <body>
+    <a id="forkme_banner" href="https://github.com/MrCodeInc/YOUCANTSEEME.js">View on GitHub</a>
+    <div class="shell">
 
-</head>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>YOUCANTSEEME.js</h1>
+            <h2>A simple javascript bookmarklet to hide almost all images on a webpage.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-<body>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/MrCodeInc/YOUCANTSEEME.js/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/MrCodeInc/YOUCANTSEEME.js/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">YOUCANTSEEME.js</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">A simple javascript bookmarklet to hide almost all images on a webpage.</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/MrCodeInc/YOUCANTSEEME.js/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/MrCodeInc/YOUCANTSEEME.js/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/MrCodeInc/YOUCANTSEEME.js" class="code">View YOUCANTSEEME.js on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h1>
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
 <a id="how-to-install" class="anchor" href="#how-to-install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HOW TO INSTALL.</h1>
 
 <p>Copy the following code: <code>javascript:(function(){var%20imgs=document.getElementsByTagName("img");for(var%20i=0;i&lt;imgs.length;i++)imgs[i].style.visibility="hidden"}());(function()%7Balert%20(%22YOU%20CANT%20SEE%20ME%22)%7D)()</code> and then make a new bookmark. Paste in the code as the destination of your new bookmark and save it. Now just click the bookmark and it should work.</p>
@@ -45,26 +55,22 @@
 <a id="how-to-show-images-again" class="anchor" href="#how-to-show-images-again" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HOW TO SHOW IMAGES AGAIN.</h1>
 
 <p>To show images again refresh the page that the images have been hidden on and images should be back.</p>
-        </article>
-      </div>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/MrCodeInc">MrCodeInc</a> can be found on <a href="https://github.com/MrCodeInc/YOUCANTSEEME.js">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/MrCodeInc" class="avatar"><img src="https://avatars2.githubusercontent.com/u/10816954?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/MrCodeInc">MrCodeInc</a> maintains <a href="https://github.com/MrCodeInc/YOUCANTSEEME.js">YOUCANTSEEME.js</a></p>
 
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/MrCodeInc/YOUCANTSEEME.js/tarball/master" class="tar">tar</a><a href="https://github.com/MrCodeInc/YOUCANTSEEME.js/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-  
-</body>
+    
+  </body>
 </html>
