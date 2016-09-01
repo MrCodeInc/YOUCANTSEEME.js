@@ -2,7 +2,7 @@
 A simple javascript bookmarklet to hide almost all images on a webpage.
 
 # HOW TO INSTALL.
-Copy the code in the YOUCANTSEEME.js file and then make a new bookmark paste in the code as the destination of your new bookmark and save it. Now just click the bookmark and it should work.
+Copy the code in the YOUCANTSEEME.js file and then make a new bookmark. Paste in the code as the destination of your new bookmark and save it. Now just click the bookmark and it should work.
 
 # HOW TO SHOW IMAGES AGAIN.
 
