@@ -1,4 +1,4 @@
-# YOU CANT SEE ME.JS
+# YOUCANTSEEME.js
 A simple javascript bookmarklet to hide almost all images on a webpage.
 
 # HOW TO INSTALL.
