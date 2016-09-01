@@ -1,6 +1,6 @@
 {
   "name": "YOU CANT SEE ME",
   "tagline": "A simple javascript bookmarklet to hide almost all images on a webpage.",
-  "body": "# YOU CANT SEE ME.JS\r\nA simple javascript bookmarklet to hide almost all images on a webpage.\r\n\r\n# HOW TO INSTALL.\r\nCopy the following code: `javascript:(function(){var%20imgs=document.getElementsByTagName(\"img\");for(var%20i=0;i<imgs.length;i++)imgs[i].style.visibility=\"hidden\"}());(function()%7Balert%20(%22YOU%20CANT%20SEE%20ME%22)%7D)()` and then make a new bookmark paste in the code as the destination of your new bookmark and save it. Now just click the bookmark and it should work.\r\n\r\n# HOW TO SHOW IMAGES AGAIN.\r\n\r\nTo show images again refresh the page that the images have been hidden on and images should be back.\r\n",
+  "body": "# YOU CANT SEE ME.JS\r\nA simple javascript bookmarklet to hide almost all images on a webpage.\r\n\r\n# HOW TO INSTALL.\r\nCopy the following code: `javascript:(function(){var%20imgs=document.getElementsByTagName(\"img\");for(var%20i=0;i<imgs.length;i++)imgs[i].style.visibility=\"hidden\"}());(function()%7Balert%20(%22YOU%20CANT%20SEE%20ME%22)%7D)()` and then make a new bookmark. Paste in the code as the destination of your new bookmark and save it. Now just click the bookmark and it should work.\r\n\r\n# HOW TO SHOW IMAGES AGAIN.\r\n\r\nTo show images again refresh the page that the images have been hidden on and images should be back.\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
